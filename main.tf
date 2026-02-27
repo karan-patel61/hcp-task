@@ -15,7 +15,7 @@ resource "aws_instance" "name" {
   ami = "ami-09256c524fab91d36"
   instance_type ="t3.micro"
   tags = {
-    name = "HCP-SERVER"
+    Name = "KARAN-HCP-SERVER"
   }
 }
 
